@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 100%;
+}
+
+a {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0bd;
+}
+
+nav a {
+    float: left;
+}
+
+nav {
+    height: 70px;
+    position: relative;
+}
+
+nav ul {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
