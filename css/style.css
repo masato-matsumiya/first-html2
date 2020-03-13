@@ -21,6 +21,11 @@ nav ul li {
     padding: 1em;
 }
 
+#sito-logo {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
 @media screen and (max-width:768px) {
     body {
         margin: 2em;
@@ -29,8 +34,6 @@ nav ul li {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: .5em;
-        margin-bottom: .5em;
     }
     nav {
         text-align: center;
