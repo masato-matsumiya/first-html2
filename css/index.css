@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+    background-image: url("../images/main-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    color: white !important;
+    background-color: #0bd;
+    padding: .7em 1.4em;
+    border-radius: .3em;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+@media screen and (max-width:768px) {
+    h2 {
+        margin-top: 2em;
+        font-size: 2em;
+    }
+    p {
+        margin: 2em 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h2 {
+        margin-top: 3em;
+        font-size: 3em;
+    }
+    p {
+        font-size: .7em;
+        margin: 2em 0;
+    }
+}
