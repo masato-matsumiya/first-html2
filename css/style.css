@@ -44,12 +44,12 @@ nav ul li {
     body {
         margin: 2em 10em;
     }
+    header {
+        float: left;
+    }
     nav {
         height: 4em;
         position: relative;
-    }
-    nav a {
-        float: left;
     }
     nav ul {
         float: right;
