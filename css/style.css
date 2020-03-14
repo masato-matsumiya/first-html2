@@ -1,4 +1,13 @@
 @charset "UTF-8";
+header,
+nav,
+article,
+aside,
+section,
+footer {
+    display: block;
+}
+
 body {
     font-family: 'Philosopher', sans-serif;
     font-size: 100%;
