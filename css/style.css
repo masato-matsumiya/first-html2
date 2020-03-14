@@ -54,19 +54,18 @@ nav ul li {
         margin: 2em 10em;
     }
     header {
-        float: left;
         position: relative;
         z-index: 2;
     }
+    h1 {
+        float: left;
+    }
     nav {
-        height: 4em;
+        float: right;
         position: relative;
         z-index: 1;
     }
-    nav ul {
-        float: right;
-        position: absolute;
-        bottom: 0;
-        right: 0;
+    h2 {
+        clear: both;
     }
 }
