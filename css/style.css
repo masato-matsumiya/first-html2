@@ -55,10 +55,13 @@ nav ul li {
     }
     header {
         float: left;
+        position: relative;
+        z-index: 2;
     }
     nav {
         height: 4em;
         position: relative;
+        z-index: 1;
     }
     nav ul {
         float: right;
