@@ -15,9 +15,12 @@ body {
     box-sizing: border-box;
 }
 
+nav a {
+    font-weight: bold;
+}
+
 a {
     color: #332808;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -33,6 +36,17 @@ nav ul li {
 #sito-logo {
     margin-top: .5em;
     margin-bottom: .5em;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    background-color: #332808;
+    color: white;
+    padding: 1em;
 }
 
 @media screen and (max-width:768px) {
