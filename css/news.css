@@ -1,16 +1,4 @@
 @charset "UTF-8";
-h2 {
-    text-align: center;
-    padding: 1em;
-    font-size: 3em;
-    font-weight: normal;
-    background-image: url("../images/news-bg.jpg");
-    background-position: center 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
-}
-
 article img {
     width: 100%;
 }
@@ -39,7 +27,6 @@ article h3 {
 .date {
     color: white;
     background-color: #0bd;
-    /* border-radius: 50%; */
     float: left;
     position: absolute;
     top: 0;
@@ -48,8 +35,6 @@ article h3 {
     right: 0;
     text-align: center;
     height: 100%;
-    /* padding-top: auto;
-    padding-bottom: auto; */
 }
 
 .date hr {
@@ -84,12 +69,32 @@ aside p {
 }
 
 @media screen and (max-width:768px) {
+    h2 {
+        text-align: center;
+        font-size: 3em;
+        font-weight: normal;
+        background-image: url("../images/news-bg.jpg");
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+    }
     .flexbox {
         margin: 0 1em;
     }
 }
 
 @media screen and (min-width:768px) {
+    h2 {
+        text-align: center;
+        font-size: 3em;
+        font-weight: normal;
+        background-image: url("../images/news-bg.jpg");
+        background-position: center -1em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+    }
     .flexbox {
         display: -webkit-flex;
         display: flex;
